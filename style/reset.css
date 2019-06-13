@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,p,input,select,textarea,form{margin: 0; padding: 0;}
+body{font:12px/1.5 "微软雅黑";color: #666;}
+img {border: 0;vertical-align: middle;}
+ul,ol{list-style:none;}
+input,select,textarea{outline:none;border:none;border:none;background-color: none;}
+textarea{resize:none;}
+a{text-decoration:none; color:#a3a3a3;}
+a:hover{color: #f10215;}
+
+/*清浮动*/
+.clearfix:after{content:"";*display:block;*clear:both;}
+.clearfix{zoom:1;}
+.fl{float:left;}
+.fr{float:right;}
+.fc{clear: both;}
+/*横向排序*/
+.lift{float: left; padding: 0 5px;}
+
+/*增加左间距*/
+.pdl{margin-left: 0px;}
+
+/*字体加粗*/
+.bd{font-weight: bold;}
+
+/*显示隐藏*/
+.hide{display:none}
+.show{display: block}
