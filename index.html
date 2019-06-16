@@ -1,0 +1,621 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>首页</title>
+    <link type="text/css" rel="stylesheet" href="style/reset.css" />
+    <link type="text/css" rel="stylesheet" href="style/main.css" />
+</head>
+
+<body>
+
+    <div class="headerBar">
+        <div class="topBar">
+            <div class="comWidth">
+                <div class="logo">
+                            <img src="images/icon/logo.gif" ; alt="京东" />
+                </div>
+                <div class="leftArea pdl">
+                    <a href="#" class="collection">广东</a>
+                </div>
+                <div class="rightArea">
+                    <a href="sign.html">你好,请登录 </a>
+                    <a href="sign.html" style="color:red">免费注册</a>
+                </div>
+            </div>
+        </div>
+        <div class="logoBar">
+            <div class="comWidth">
+                <div class="pdl">
+                    <div class="search fl">
+                        <div class="search_box ">
+                            <input type="text" class="search_text fl " />
+                            <input type="button" id="search_btn" class="search_btn " />
+                        </div>
+                        <div class="search_hot">
+                            <ul>
+                                <li class="lift"><a href="#">好物一元秒</a></li>
+                                <li class="lift"><a href="#">全球名店</a></li>
+                                <li class="lift"><a href="#">汽车618</a></li>
+                                <li class="lift"><a href="#">京东房产</a></li>
+                                <li class="lift"><a href="#">5折秒杀</a></li>
+                                <li class="lift"><a href="#">居家618</a></li>
+                                <li class="lift"><a href="#">型格男装</a></li>
+                                <li class="lift"><a href="#">好物9块9</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="shopCar fl">
+                    <a href="#" class="shopText">我的购物车</a>
+                </div>
+                <div class="fc"> </div>
+                <div class="nav pdl">
+                    <ul>
+                        <li><a href="#">秒杀</a></li>
+                        <li><a href="#">优惠券</a></li>
+                        <li><a href="#">PLUS会员</a></li>
+                        <li><a href="#">闪购</a></li>
+                        <li><a href="#">拍卖</a></li>
+                        <li><a href="#">京东时尚</a></li>
+                        <li><a href="#">京东超市</a></li>
+                        <li><a href="#">京东生鲜</a></li>
+                        <li><a href="#">海囤全球</a></li>
+                        <li><a href="#">京东金融</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="shopParent">
+        <div class="shopCont clearfix">
+
+            <div class="shopImCont fl ">
+                <div class="shopClass">
+                    <div class="shopClasslist">
+                        <dl class="shopClass_Item" onmouseover="showListDetail()" onmouseout="hideListDetail()">
+                            <dt><a href="#" class="itemLink">家用电器</a></dt>
+                            <dt class="itemLink_active"><a href="#" class="itemLink">手机</a><span>/</span><a href="#"
+                                    class="itemLink">运营商</a><span>/</span><a href="#" class="itemLink">数码</a></dt>
+                            <dt><a href="#" class="itemLink">电脑</a><span>/</span><a href="#" class="itemLink">办公</a>
+                            </dt>
+                            <dt><a href="#" class="itemLink">家居</a><span>/</span><a href="#"
+                                    class="itemLink">家具</a><span>/</span><a href="#"
+                                    class="itemLink">家装</a><span>/</span><a href="#" class="itemLink">厨具</a></dt>
+                            <dt><a href="#" class="itemLink">男装</a><span>/</span><a href="#"
+                                    class="itemLink">女装</a><span>/</span><a href="#"
+                                    class="itemLink">童装</a><span>/</span><a href="#" class="itemLink">内衣</a></dt>
+                            <dt><a href="#" class="itemLink">美妆</a><span>/</span><a href="#"
+                                    class="itemLink">个护清洁</a><span>/</span><a href="#" class="itemLink">宠物</a></dt>
+                            <dt><a href="#" class="itemLink">女鞋</a><span>/</span><a href="#"
+                                    class="itemLink">箱包</a><span>/</span><a href="#"
+                                    class="itemLink">钟表</a><span>/</span><a href="#" class="itemLink">珠宝</a></dt>
+                            <dt><a href="#" class="itemLink">男鞋</a><span>/</span><a href="#"
+                                    class="itemLink">运动</a><span>/</span><a href="#" class="itemLink">户外</a></dt>
+                            <dt><a href="#" class="itemLink">房产</a><span>/</span><a href="#"
+                                    class="itemLink">汽车</a><span>/</span><a href="#" class="itemLink">汽车用品</a></dt>
+                            <dt><a href="#" class="itemLink">母婴</a><span>/</span><a href="#" class="itemLink">玩具乐器</a>
+                            </dt>
+                            <dt><a href="#" class="itemLink">食品</a><span>/</span><a href="#"
+                                    class="itemLink">酒类</a><span>/</span><a href="#"
+                                    class="itemLink">生鲜</a><span>/</span><a href="#" class="itemLink">特产</a></dt>
+                            <dt><a href="#" class="itemLink">艺术</a><span>/</span><a href="#"
+                                    class="itemLink">礼品鲜花</a><span>/</span><a href="#" class="itemLink">农资绿植</a></dt>
+                            <dt><a href="#" class="itemLink">医药保健</a><span>/</span><a href="#" class="itemLink">计生情趣</a>
+                            </dt>
+                            <dt><a href="#" class="itemLink">图书</a><span>/</span><a href="#"
+                                    class="itemLink">文娱</a><span>/</span><a href="#" class="itemLink">电子书</a></dt>
+                            <dt><a href="#" class="itemLink">机票</a><span>/</span><a href="#"
+                                    class="itemLink">酒店</a><span>/</span><a href="#"
+                                    class="itemLink">旅游</a><span>/</span><a href="#" class="itemLink">生活</a></dt>
+                            <dt><a href="#" class="itemLink">理财</a><span>/</span><a href="#"
+                                    class="itemLink">众筹</a><span>/</span><a href="#"
+                                    class="itemLink">白条</a><span>/</span><a href="#" class="itemLink">保险</a></dt>
+                            <dt><a href="#" class="itemLink">安装</a><span>/</span><a href="#"
+                                    class="itemLink">维修</a><span>/</span><a href="#"
+                                    class="itemLink">清洗</a><span>/</span><a href="#" class="itemLink">二手</a></dt>
+                            <dt><a href="#" class="itemLink">家居</a></dt>
+                        </dl>
+                    </div>
+                    <div class="shopClass_Detail hide " id="shopClass_Detail" onmouseover="showListDetail()"
+                        onmouseout="hideListDetail()">
+                        <div class="DetailList fl">
+                            <div class="listNav">
+                                <a href="#">玩3C<span></span></a>
+                                <a href="#">手机频道<span></span></a>
+                                <a href="#">网上营业厅<span></span></a>
+                                <a href="#">配件选购中心<span></span></a>
+                                <a href="#">智能数码<span></span></a>
+                                <a href="#">影像Club<span></span></a>
+                            </div>
+                            <div class="listItem">
+                                <dl>
+                                    <dt class="fl">
+                                        <a href="#">手机通讯<span></span></a>
+                                    </dt>
+                                    <dd>
+                                        <a href="#">抢618神卷</a><a href="#">手机</a><a href="#">游戏手机</a><a
+                                            href="#">老人机</a><a href="#">对讲机</a><a href="#">以旧换新</a><a href="#">手机维修</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt class="fl">
+                                        <a href="#">&nbsp;运营商<span></span></a>
+                                    </dt>
+                                    <dd>
+                                        <a href="#">合约机</a><a href="#">选号码</a><a href="#">固话宽带</a><a href="#">办套餐</a><a
+                                            href="#">充话费/流量</a><a href="#">中国电信</a><a href="#">中国移动</a><a
+                                            href="#">中国联通</a><a href="#">京东通信</a><a href="#">170选号</a><br /><a
+                                            href="#">上网卡</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt class="fl">
+                                        <a href="#">手机配件<span></span></a>
+                                    </dt>
+                                    <dd>
+                                        <a href="#">199减100</a><a href="#">手机壳</a><a href="#">贴膜</a><a
+                                            href="#">手机存储卡</a><a href="#">数据线</a><a href="#">充电器</a><a
+                                            href="#">手机耳机</a><a href="#">创意配件</a><a href="#">手机饰品</a><a
+                                            href="#">手机电池</a><br /><a href="#">苹果周边</a><a href="#">移动电源</a><a
+                                            href="#">蓝牙耳机</a><a href="#">手机支架</a><a href="#">车载配件</a><a
+                                            href="#">拍照配件</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt class="fl">
+                                        <a href="#">摄影摄像<span></span></a>
+                                    </dt>
+                                    <dd>
+                                        <a href="#">大牌五折抢</a><a href="#">数码相机</a><a href="#">单电/微单相机</a><a
+                                            href="#">单反相机</a><a href="#">拍立得</a><a href="#">运动相机</a><a
+                                            href="#">摄像头</a><a href="#">镜头</a><a href="#">户外器械</a><a
+                                            href="#">影棚器械</a><br /><a href="#">冲印服务</a><a href="#">数码相框</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt class="fl">
+                                        <a href="#">数码配件<span></span></a>
+                                    </dt>
+                                    <dd>
+                                        <a href="#">存储卡</a><a href="#">三脚架/云台</a><a href="#">相机包</a><a href="#">滤镜</a><a
+                                            href="#">闪光灯/手柄</a><a href="#">相机清洁/贴膜</a><a href="#">机身附件</a><a
+                                            href="#">镜头附件</a><a href="#">读卡器</a><a href="#">支架</a><br /><a
+                                            href="#">电池充电器</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt class="fl">
+                                        <a href="#">影音娱乐<span></span></a>
+                                    </dt>
+                                    <dd>
+                                        <a href="#">耳机/耳麦</a><a href="#">音箱/音响</a><a href="#">智能音箱</a><a
+                                            href="#">便携/无线音箱</a><a href="#">收音机</a><a href="#">麦克风</a><a
+                                            href="#">MP3/MP4</a><a href="#">专业音频</a><a href="#">音频线</a><br /><a
+                                            href="#">智能手环</a><a href="#">智能手表</a><a href="#">智能眼镜</a><a
+                                            href="#">智能机器人</a><a href="#">运动跟踪器</a><a href="#">健康监测</a><a
+                                            href="#">智能配饰</a><a href="#">智能家居</a><a href="#">体感车</a><a href="#">无人机</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt class="fl">
+                                        <a href="#">电子教育<span></span></a>
+                                    </dt>
+                                    <dd>
+                                        <a href="#">学生平板</a><a href="#">点读机/笔</a><a href="#">早教益智</a><a
+                                            href="#">录音笔</a><a href="#">电纸笔</a><a href="#">电子词典</a><a href="#">复读机</a><a
+                                            href="#">翻译机</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                        <div class="adpf fr">
+                            <dl>
+                                <dt class="brand">
+                                    <img src="images/brands/apple.png" alt="苹果" class="brandLogo" /><img
+                                        src="images/brands/HUAWEI.png" alt="华为" class="brandLogo">
+                                </dt>
+                            </dl>
+                            <dl>
+                                <dt class="brand">
+                                    <img src="images/brands/honor.png" alt="荣耀" class="brandLogo" /><img
+                                        src="images/brands/MI.png" alt="小米" class="brandLogo">
+                                </dt>
+                            </dl>
+                            <dl>
+                                <dt class="brand">
+                                    <img src="images/brands/Tenda.png" alt="腾达" class="brandLogo" /><img
+                                        src="images/brands/TP-LINK.png" alt="腾达" class="brandLogo">
+                                </dt>
+                            </dl>
+                            <dl>
+                                <dt class="brand">
+                                    <img src="images/brands/SONY.png" alt="索尼" class="brandLogo" /><img
+                                        src="images/brands/HUAWEILST.png" alt="华为" class="brandLogo">
+                                </dt>
+                            </dl>
+                            <dl class="gd">
+                                <dt class="gdimg">
+                                    <img src="images/brands/GD1.png" alt="新机推荐" />
+                                </dt>
+                                <dt class="gdimg">
+                                    <img src="images/brands/GD2.png" alt="抢神卷" />
+                                </dt>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="shopBanner fl" id="shopBanner">
+                <div class="bannerBar fl">
+                    <ul class="imgBox" id="imgbox">
+                        <li><a href="#"><img class="bannerImg" style="opacity: 1" src="images/advs/banner1.jpeg" alt="超市狂欢趴" /></a></li>
+                        <li><a href="#"><img class="bannerImg" src="images/advs/banner2.jpeg" alt="汽车"></a></li>
+                        <li><a href="#"><img class="bannerImg" src="images/advs/banner3.jpeg" alt="空调"></a></li>
+                        <li><a href="#"><img class="bannerImg" src="images/advs/banner4.jpg" alt="家具"></a></li>
+                        <li><a href="#"><img class="bannerImg" src="images/advs/banner5.jpeg" alt="笔记本"></a></li>
+                        <li><a href="#"><img class="bannerImg" src="images/advs/banner6.jpeg" alt="学生手机"></a></li>
+                        <li><a href="#"><img class="bannerImg" src="images/advs/banner7.jpeg" alt="拍拍省钱季"></a></li>
+                        <li><a href="#"><img class="bannerImg" src="images/advs/banner8.jpeg" alt="欧派"></a></li>
+                    </ul>
+                </div>
+                <div class="bannerImgPoint" id= "bannerImgPoint" >
+                    <i  class="point_btn point_btn_active" onmouseover="focusPoint(0)"></i>
+                    <i  class="point_btn " onmouseover="focusPoint(1)"></i>
+                    <i  class="point_btn" onmouseover="focusPoint(2)"></i>
+                    <i  class="point_btn" onmouseover="focusPoint(3)"></i>
+                    <i  class="point_btn" onmouseover="focusPoint(4)"></i>
+                    <i  class="point_btn" onmouseover="focusPoint(5)"></i>
+                    <i  class="point_btn" onmouseover="focusPoint(6)"></i>
+                    <i  class="point_btn" onmouseover="focusPoint(7)"></i>
+                </div>
+
+            </div>
+            <div class="bannerAd fl">
+                    <div>
+                        <a href="#"><img src="images/advs/bannerAd1.jpg" alt="流量月租" /></a>
+                    </div>
+                    <div>
+                        <a href="#"><img src="images/advs/bannerAd2.jpg" alt="个护清洁" /></a>
+                    </div>
+                    <div>
+                        <a href="#"><img src="images/advs/bannerAd3.jpg" alt="茶叶" /></a>
+                    </div>
+                </div>
+            <div class="user fl" id="user">
+                <div class="headlogo">
+                    <img src="images/icon/no_login.jpg" alt="头像" />
+                </div>
+                <div class="userNew">
+                    <div class="userSign">
+                        <div class="welcom">
+                            <span>Hi~欢迎来到京东</span>
+                        </div>
+                        <div class="signLog">
+                            <a href="sign.html">登录</a>
+                            <a href="sign.html">注册</a>
+                        </div>
+                        <div class="userButton">
+                            <a href="sign.html" class="newUser fl">新人福利</a>
+                            <a href="sign.html" class="inSign fl">PLUS会员</a>
+                        </div>
+                    </div>
+                    <div class="news">
+                        <div class="newsTop">
+                            <span class="newName fl">京东快报</span>
+                            <a href="#" class="moreNew fr">更多<span></span></a>
+                        </div>
+                    </div>
+                    <ul class="newsList">
+                        <li><a href="#"><span>推荐</span>美国突然宣布和华为...</a></li>
+                        <li><a href="#"><span>推荐</span>5G版华为mate X已...</a></li>
+                        <li><a href="#"><span>推荐</span>100万不华为鸿蒙系...</a></li>
+                        <li><a href="#"><span>推荐</span>将有49款华为机型...</a></li>
+                        <li><a href="#"><span>推荐</span>首席手机不只黑鲨还...</a></li>
+                        <li><a href="#"><span>推荐</span>交通部下令：电动车...</a></li>
+                        <li><a href="#"><span>推荐</span>电动车10月1日起禁...</a></li>
+                        <li><a href="#"><span>推荐</span>神逆！贾跃亭FF91终...</a></li>
+                        <li><a href="#"><span>推荐</span>92汽油一年后即将...</a></li>
+                        <li><a href="#"><span>推荐</span>C1驾照将一年一审...</a></li>
+                        <li><a href="#"><span>推荐</span>4月新势力品牌上牌...</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="J_fs_act" class="fs_act" style="top: 10px;">
+            <div class="fs_act_wp" style="position: absolute; height: 710px; left: 0px; top: 0px;">
+                <a id="J_fs_act_lk" class="fs_act_lk" href="#" target="_blank" >
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="enjoy">
+        <div class="plusImg">
+            <div class="plusBg"></div>
+            <div class="shopPlus">
+                <div class="plus_inner">
+                    <div class="plus_tit"><a class="plus_tit_lk" href="#"></a></div>
+                    <div class="plus_class">
+                        <ul class="plus_class_list">
+                            <li class="plus_class_item"><a href="#" class="plus_class_log">
+                                    <div class="plus_class_act_img"><img src="images/goods/plus1.png"
+                                            class="plus_class_img"></div>
+                                </a></li>
+                            <li class="plus_class_item"><a href="#" class="plus_class_log">
+                                    <div class="plus_class_act_img"><img src="images/goods/plus2.png"
+                                            class="plus_class_img"></div>
+                                </a></li>
+                            <li class="plus_class_item"><a href="#" class="plus_class_log">
+                                    <div class="plus_class_act_img"><img src="images/goods/plus3.png"
+                                            class="plus_class_img"></div>
+                                </a></li>
+                            <li class="plus_class_item"><a href="#" class="plus_class_log">
+                                    <div class="plus_class_act_img"><img src="images/goods/plus4.png"
+                                            class="plus_class_img"></div>
+                                </a></li>
+                            <li class="plus_class_item"><a href="#" class="plus_class_log">
+                                    <div class="plus_class_act_img"><img src="images/goods/plus5.png"
+                                            class="plus_class_img"></div>
+                                </a></li>
+                            <li class="plus_class_item"><a href="#" class="plus_class_log">
+                                    <div class="plus_class_act_img"><img src="images/goods/plus6.png"
+                                            class="plus_class_img"></div>
+                                </a></li>
+                            <li class="plus_class_item"><a href="#" class="plus_class_log">
+                                    <div class="plus_class_act_img"><img src="images/goods/plus7.png"
+                                            class="plus_class_img"></div>
+                                </a></li>
+                            <li class="plus_class_item"><a href="#" class="plus_class_log">
+                                    <div class="plus_class_act_img"><img src="images/goods/plus8.png"
+                                            class="plus_class_img"></div>
+                                </a></li>
+                            <li class="plus_class_item"><a href="#" class="plus_class_log">
+                                    <div class="plus_class_act_img"><img src="images/goods/plus9.png"
+                                            class="plus_class_img"></div>
+                                </a></li>
+                            <li class="plus_class_item"><a href="#" class="plus_class_log">
+                                    <div class="plus_class_act_img"><img src="images/goods/plus11.png"
+                                            class="plus_class_img"></div>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div class="Plus_shop">
+                        <ul class="Plus_shop_list">
+                            <li class="Plus_shop_item"><a href="#" class="plus_class_log">
+                                    <div class="plus_class_act_img"><img src="images/goods/plus12.png"
+                                            class="plus_class_img"></div>
+                                </a></li>
+                            <li class="Plus_shop_item"><a href="#" class="plus_class_log">
+                                    <div class="plus_class_act_img"><img src="images/goods/plus15.png"
+                                            class="plus_class_img"></div>
+                                </a></li>
+                            <li class="Plus_shop_item"><a href="#" class="plus_class_log">
+                                    <div class="plus_class_act_img"><img src="images/goods/plus12.png"
+                                            class="plus_class_img"></div>
+                                </a></li>
+                            <li class="Plus_shop_item"><a href="#" class="plus_class_log">
+                                    <div class="plus_class_act_img"><img src="images/goods/plus15.png"
+                                            class="plus_class_img"></div>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="technology">
+        <div class="topTitle">
+            <h3 class="titleH3">智能先锋</h3>
+        </div>
+        <div class="tecCenter">
+            <div class="tecCenter_inner clearfix">
+                <div class="tecCenter_inner_lf">
+                    <div class="inner_hd">
+                        <a class="inner_hd_lk" href="#">
+                            <h3 class="inner_hd_lk_tt">手机频道</h3>
+                            <i class="inner_hd_lk_i"></i>
+                            <span class="inner_hd_lk_sp">一个极客的诞生</span>
+                        </a>
+                    </div>
+                    <div class="inner_ft">
+                        <div class="ft_cont clearfix">
+                            <a class="ft_cont_lk" href="#">
+                                <div class="lk_IB">
+                                    <img class="lk_ig" src="images/goods/tecimg1.png">
+                                </div>
+                            </a>
+                            <a class="ft_cont_lk" href="#">
+                                <div class="lk_IB">
+                                    <img class="lk_ig" src="images/goods/tecimg1.png">
+                                </div>
+                            </a>
+                            <div class="ft_cont_logo">
+                                <a class="ft_cont_logo_lk" href="#">
+                                    <div class="logo_lk_ib">
+                                        <img class="lk_ig" src="images/goods/1logo.png">
+                                    </div>
+                                </a>
+                                <a class="ft_cont_logo_lk" href="#">
+                                    <div class="logo_lk_ib">
+                                        <img class="lk_ig" src="images/goods/1logo.png">
+                                    </div>
+                                </a>
+                                <a class="ft_cont_logo_lk" href="#">
+                                    <div class="logo_lk_ib">
+                                        <img class="lk_ig" src="images/goods/1logo.png">
+                                    </div>
+                                </a>
+                                <a class="ft_cont_logo_lk" href="#">
+                                    <div class="logo_lk_ib">
+                                        <img class="lk_ig" src="images/goods/1logo.png">
+                                    </div>
+                                </a>
+                                <a class="ft_cont_logo_lk" href="#">
+                                    <div class="logo_lk_ib">
+                                        <img class="lk_ig" src="images/goods/1logo.png">
+                                    </div>
+                                </a>
+                                <a class="ft_cont_logo_lk" href="#">
+                                    <div class="logo_lk_ib">
+                                        <img class="lk_ig" src="images/goods/1logo.png">
+                                    </div>
+                                </a>
+                                <a class="ft_cont_logo_lk" href="#">
+                                    <div class="logo_lk_ib">
+                                        <img class="lk_ig" src="images/goods/1logo.png">
+                                    </div>
+                                </a>
+                                <a class="ft_cont_logo_lk" href="#">
+                                    <div class="logo_lk_ib">
+                                        <img class="lk_ig" src="images/goods/1logo.png">
+                                    </div>
+                                </a>
+                                <a class="ft_cont_logo_lk" href="#">
+                                    <div class="logo_lk_ib">
+                                        <img class="lk_ig" src="images/goods/1logo.png">
+                                    </div>
+                                </a>
+                                <a class="ft_cont_logo_lk" href="#">
+                                    <div class="logo_lk_ib">
+                                        <img class="lk_ig" src="images/goods/1logo.png">
+                                    </div>
+                                </a>
+                                <a class="ft_cont_logo_lk" href="#">
+                                    <div class="logo_lk_ib">
+                                        <img class="lk_ig" src="images/goods/1logo.png">
+                                    </div>
+                                </a>
+                                <a class="ft_cont_logo_lk" href="#">
+                                    <div class="logo_lk_ib">
+                                        <img class="lk_ig" src="images/goods/1logo.png">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tecCenter_inner_lf">
+                    <div class="inner_hd">
+                        <a class="inner_hd_lk" href="#">
+                            <h3 class="inner_hd_lk_tt">新品首发</h3>
+                            <i class="inner_hd_lk_i"></i>
+                            <span class="inner_hd_lk_sp">逛京东小魔方，发现超级新品</span>
+                        </a>
+
+                    </div>
+                    <div class="inner_ft">
+                        <div class="ft_center clearfix">
+                            <a href="#">
+                                <div class="lk_IB">
+                                    <img class="lk_ig" src="images/goods/ftbanner1.png">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tecCenter_inner_rg">
+                    <div class="rg_border">
+                        <a class="rg_lk" href="#">
+                            <div class="maxPosition">
+                                <img class="lk_ig" src="images/goods/ftbanner2.png">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tecFooter">
+            <div class="tecCenter_inner clearfix">
+                <div class="tecFooter_inner_lf">
+                    <div class="lf_border">
+                        <a class="lf_lk" href="#">
+                            <div class="maxPosition">
+                                <img class="lk_ig" src="images/goods/ctlft1.png">
+                            </div>
+                        </a>
+                        <a class="lf_lk" href="#" style="top: 220px">
+                            <div class="maxPosition">
+                                <img class="lk_ig" src="images/goods/ctlft2.png">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="tecCenter_inner_lf">
+                    <div class="inner_hd">
+                        <a class="inner_hd_lk" href="#">
+                            <h4 class="inner_hd_lk_tt">王者荣耀·</h4>
+                            <span class="inner_hd_lk_sp">最强王者</span>
+                        </a>
+                    </div>
+                    <div class="inner_ft">
+                        <div class="ft_cont clearfix" style="height: 150px">
+                            <a class="tf_center_lk" href="#">
+                                <div class="lk_IB">
+                                    <img class="lk_ig" src="images/goods/ctlft3.png">
+                                </div>
+                            </a>
+                            <a class="tf_center_lk" href="#">
+                                <div class="lk_IB">
+                                    <img class="lk_ig" src="images/goods/ctlft4.png">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="borderLine clearfix">                  
+                    </div>
+                    <div class="inner_hd">
+                            <a class="inner_hd_lk" href="#">
+                                <h4 class="inner_hd_lk_tt">记录时光·</h4>
+                                <span class="inner_hd_lk_sp">记录生活</span>
+                            </a>
+                        </div>
+                        <div class="inner_ft" style="margin-top: 10px">
+                            <div class="ft_cont clearfix" >
+                                <a class="tf_center_lk" href="#">
+                                    <div class="lk_IB">
+                                        <img class="lk_ig" src="images/goods/ctlft5.png">
+                                    </div>
+                                </a>
+                                <a class="tf_center_lk" href="#">
+                                    <div class="lk_IB">
+                                        <img class="lk_ig" src="images/goods/ctlft6.png">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                </div>
+                <div class="tecCenter_inner_lf" style="margin-right: 0">
+                        <div class="inner_hd">
+                            <a class="inner_hd_lk" href="#">
+                                <h3 class="inner_hd_lk_tt">电脑办公</h3>
+                                <i class="inner_hd_lk_i"></i>
+                                <span class="inner_hd_lk_sp">智能潮货嗨购不停</span>
+                            </a>
+                        </div>
+                        <div class="inner_ft">
+                            <div class="ft_cont clearfix">
+                                <a class="tf_rg_lk" href="#">
+                                    <div class="lk_IB">
+                                        <img class="lk_ig" src="images/goods/ctlft7.png">
+                                    </div>
+                                </a>
+                                <a class="tf_rg_lk" href="#">
+                                    <div class="lk_IB">
+                                        <img class="lk_ig" src="images/goods/ctlft8.png">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+        <script src="js/main.js"></script>
+</body>
+
+</html>
