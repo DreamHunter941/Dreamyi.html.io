@@ -21,14 +21,12 @@ function changeimg(){
         i++
         imgbox[i].style.cssText = "opacity: 1;";
         bannerImgPoint[i].className = "point_btn point_btn_active"
-        console.log (i);
         
     }
     else{
         imgbox[i].style.cssText = "opacity: 0;";
         bannerImgPoint[i].className = "point_btn"
         i = 0
-        console.log (i);
         imgbox[i].style.cssText = "opacity: 1;";
         bannerImgPoint[i].className = "point_btn point_btn_active"
     }
