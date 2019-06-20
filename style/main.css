@@ -195,7 +195,7 @@
 .fs_act_wp{width: 100%;z-index: 0;}
 
 /*底部导航*/
-.w{width: 990px;margin: 0 auto; }
+.w{width: 990px;margin: 20px auto; }
 .footer{    text-align: center;padding-bottom: 30px;font-size: 12px; color: #666;}
 .copyright{    margin-top: 10px;}
 
