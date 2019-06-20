@@ -194,5 +194,8 @@
 .fs_act{position: absolute; width: 100%;left: 0;}
 .fs_act_wp{width: 100%;z-index: 0;}
 
-
+/*底部导航*/
+.w{width: 990px;margin: 0 auto; }
+.footer{    text-align: center;padding-bottom: 30px;font-size: 12px; color: #666;}
+.copyright{    margin-top: 10px;}
 
